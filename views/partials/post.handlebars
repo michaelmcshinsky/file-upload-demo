@@ -1,0 +1,30 @@
+<a href="/posts/{{post.id}}" class="post-card">
+  <div class="post-meta">
+    <div class="post-author_image">
+      <img src="https://via.placeholder.com/50x50/CCC/000" />
+    </div>
+    <div class="post-meta_right">
+      <div class="post-author_name">
+        John Doe
+      </div>
+      <div class="post-author_date">
+        {{format_date post.createdAt}}
+      </div>
+    </div>
+  </div>
+  <div class="post-image">
+    {{#each post.Files as |file|}}
+      <img src="{{file.location}}" />
+    {{/each}}
+  </div>
+  <div class="post-title">
+    {{post.title}}
+  </div>
+  <div class="post-description">
+    {{#if post.description}}
+      {{post.description}}
+    {{else}}
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro vitae est atque, sed nihil maiores dolorum id excepturi culpa soluta optio. Inventore nisi quo hic adipisci sint minus et quae.
+    {{/if}}
+  </div>
+</a>

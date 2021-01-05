@@ -32,7 +32,7 @@ function formSubmit() {
       },
       body: data,
     }).then((res) => {
-      window.location = `/posts/${res.id}`
+      window.location = `/`
     });
   });
 }

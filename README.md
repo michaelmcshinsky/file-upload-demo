@@ -54,6 +54,7 @@ Features which should be considered when expanding upon this example.
 ### Simple S3 Bucket Permissions
 
 You should make your permissions more verbose and locked down as needed than this example.
+Change BUCKET_NAME to your bucket's name.
 
 ```
 {

@@ -3,7 +3,7 @@ const express = require("express");
 const exphbs = require("express-handlebars");
 const db = require("./models");
 const routes = require("./routes");
-const helpers = require('./utils/helpers');
+const helpers = require("./utils/helpers");
 
 const app = express();
 const PORT = process.env.PORT || 3001;

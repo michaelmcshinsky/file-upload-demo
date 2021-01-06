@@ -1,15 +1,15 @@
 {
-  "name": "upload-demo",
+  "name": "file-upload-demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "author": "Michael McShinsky",
   "scripts": {
     "start": "sequelize db:migrate && node server.js",
     "watch": "sequelize db:migrate && nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["aws", "image-upload", "express", "node", "handlebars"],
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.821.0",

@@ -33,7 +33,7 @@ There is a lot of architecural code in the demo for scaffolding out a working de
 
 Uploading of the image from the frontend.
 1. `/views/create.handlebars`
-2. `public/js/create.js`
+2. `/public/js/create.js`
 
 #### Backend
 
@@ -53,10 +53,10 @@ Features which should be considered when expanding upon this example.
 5. Upload avenues. Currently only one way to upload an image with strict acceptance criteria on propery name. This could be made more dynamic and DRY.
 6. CDN. Ability to tie S3 with a CDN and reduce distibution costs.
 
-### Simple S3 Bucket Permissions
+### Example S3 Bucket Permissions
 
 You should make your permissions more verbose and locked down as needed than this example.
-Change BUCKET_NAME to your bucket's name.
+Change `BUCKET_NAME` to your bucket's name.
 
 ```
 {

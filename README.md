@@ -4,6 +4,8 @@
 
 To show a minimal example for uploading images in the same API call as your form data for creating a table entry in your database and storing an image online. The demo is not meant to be all encompassing and meet the various situations and one-off needs that come with image handling between the client and the server.
 
+![caption](file-upload-demo.gif)
+
 ### Main Technologies
 
 1. Express

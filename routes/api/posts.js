@@ -5,8 +5,8 @@ const fileService = require("../../utils/file-service");
 router.post("/", fileService.upload.single("image"), async (req, res) => {
   try {
     const post = await Post.create({
-        title: req.body.title,
-        description: req.body.description,
+      title: req.body.title,
+      description: req.body.description,
     });
 
     req.file.post_id = post.id;

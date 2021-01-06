@@ -20,7 +20,7 @@ function fileReader() {
 
 function formSubmit() {
   const formData = document.getElementById("formData");
-  formData.addEventListener("submit", function (event) {
+  formData.addEventListener("submit", (event) => {
     event.preventDefault();
 
     const data = new FormData(formData);
@@ -28,11 +28,11 @@ function formSubmit() {
     fetch("/api/posts", {
       method: "POST",
       headers: {
-        'Access-Control-Allow-Origin': '*',
+        "Access-Control-Allow-Origin": "*",
       },
       body: data,
     }).then((res) => {
-      window.location = `/`
+      window.location = `/`;
     });
   });
 }

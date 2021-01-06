@@ -79,5 +79,5 @@ Change BUCKET_NAME to your bucket's name.
 
 ### Contributors
 
-[Michael McShinsky](https://github.com/michaelmcshinsky)
-[Joshua Duncan](https://github.com/jduncan9720)
+1. [Michael McShinsky](https://github.com/michaelmcshinsky)
+2. [Joshua Duncan](https://github.com/jduncan9720)
